@@ -226,16 +226,24 @@
 }
 #facebook{
   width:30px;
-  /* margin: auto; */
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
 }
 
 #linkedin {
-  width: 30px;
-  margin: auto;
+  width:30px;
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
 }
 #futaicon{
-  width: 30px;
+  width:30px;
   background-color: white;
+  padding: 5px;
+  border: none;
   border-radius: 20px;
-  margin: auto;
+  
 }

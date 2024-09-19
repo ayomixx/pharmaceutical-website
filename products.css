@@ -16,6 +16,16 @@
     justify-content: space-between;
     background-color: #16325b;
     padding: 10px;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    top: 0px;
+    /* padding: 20px 40px 20px 20px; */
+  /* width: 20%; */
+  /* height: 100vh; */
+  max-width: 100%;
+  /* position: relative; */
+  z-index: 1;
 }
 .name img{
     width: 30%;
@@ -37,7 +47,9 @@
     color: #222;
     /* border-radius: 20px; */
  }
- 
+ .hero-section-container{
+  margin-top: 200px;
+ }
  .hero-section{
     margin-top: 100px;
  }
@@ -185,25 +197,23 @@
   .benefits{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
+    align-items: center;
   }
   .access{
     display: flex;
     /* justify-content: space-around; */
     gap: 15px;
   }
-  .get-started{
+  /* .get-started{
     margin-top: 30px;
-  }
-  .get-started button{
+  } */
+  .get-started{
     background-color: #16325b;
     color: white;
+    margin-top: 50px;
     padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
     font-size: 16px;
     width: 60%;
     cursor: pointer;
@@ -235,14 +245,23 @@
 }
 #facebook{
   width:30px;
-  /* margin: auto; */
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
 }
 
 #linkedin {
-  width: 30px;
-  margin: auto;
+  width:30px;
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
 }
 #futaicon{
-  width: 30px;
-  margin: auto;
+  width:30px;
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
 }

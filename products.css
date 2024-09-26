@@ -306,10 +306,10 @@
   cursor: pointer;
 }
 .hamburger div{
-  width: 30px;
+  width: 20px;
   height: 2px;
   background-color: white;
-  margin: 5px 0;
+  margin: 3px 0;
   /* transition: 0.3s ease; */
 }
 #menu-toggle:checked + .hamburger + .menu{
@@ -317,11 +317,13 @@
 }
 .menu{
   display: none;
+  padding-left: 20px;
+  padding-top: 20px;
   flex-direction: column;
   background-color: #16325b;
   position: absolute;
   top: 50px;
-  gap: 30px;
+  gap: 25px;
   left: 0;
   width: 100%;
   align-items: flex-start;
@@ -334,6 +336,7 @@
 .menu a:hover{
   background-color:#fff;
   color: #222;
+  width: 100%;
 }
 .hero-section-container{
   color: #222;
@@ -522,7 +525,7 @@
   width: 20%;
 }
 .drugs img{
-  width: 60%;
+  width: 100%;
   margin-left: 0;
 }
 .all-rights{

@@ -286,10 +286,10 @@
   cursor: pointer;
 }
 .hamburger div{
-  width: 30px;
+  width: 20px;
   height: 2px;
   background-color: white;
-  margin: 5px 0;
+  margin: 3px 0;
   /* transition: 0.3s ease; */
 }
 #menu-toggle:checked + .hamburger + .menu{
@@ -297,11 +297,13 @@
 }
 .menu{
   display: none;
+  padding-left: 20px;
+  padding-top: 20px;
   flex-direction: column;
   background-color: #16325b;
   position: absolute;
   top: 50px;
-  gap: 30px;
+  gap: 25px;
   left: 0;
   width: 100%;
   align-items: flex-start;
@@ -314,6 +316,7 @@
 .menu a:hover{
   background-color:#fff;
   color: #222;
+  width: 100%;
 }
 .hero-section-container{
   color: #222;
@@ -386,6 +389,22 @@
   font-size: 16px;
   color: #16325b;
 }
+.truth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  gap: 20px;
+}
+.truth img{
+  width: 65px;
+}
+.truth p{
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #16325b;
+}
 .drugtypes{
   margin-top: 50px;
 }
@@ -413,8 +432,8 @@
   border-radius: 10px;
   display: flex;
   gap: 10px;
-  padding: 15px;
-  width: 160px;
+  padding: 10px;
+  /* width: 100%; */
   /* margin: auto; */
 }
 .drug img{
@@ -495,11 +514,11 @@
 .all-rights p{
   width: 100%;
 }
-.drugimage{
-  width: 20%;
+.drugs{
+  width: 15%;
 }
-.drugimage img{
-  width: 60%;
+.drugs img{
+  width: 100%;
 }
 .icon-container{
 display: flex;

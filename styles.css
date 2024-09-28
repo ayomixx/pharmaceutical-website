@@ -311,12 +311,12 @@
 .menu a{ 
   color: white;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
 }   
 .menu a:hover{
   background-color:#fff;
   color: #222;
-  width: 100%;
+  width: 90%;
 }
 .hero-section-container{
   color: #222;
@@ -397,6 +397,7 @@
   gap: 20px;
 }
 .truth img{
+  margin-bottom: 10px;
   width: 65px;
 }
 .truth p{
@@ -420,7 +421,7 @@
   grid-template-columns: auto auto;
   justify-content: center;
   width: 40%;
-  column-gap: 40px;
+  column-gap: 30px;
   row-gap: 30px;
   /* background-color: #295f98; */
   padding: 10px;

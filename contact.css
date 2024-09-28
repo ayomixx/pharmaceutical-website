@@ -291,6 +291,7 @@ label{
     .menu{
       display: none;
       padding-left: 20px;
+      padding-bottom: 20px;
       padding-top: 20px;
       flex-direction: column;
       background-color: #16325b;
@@ -304,12 +305,12 @@ label{
     .menu a{ 
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 16px;
     }   
     .menu a:hover{
       background-color:#fff;
       color: #222;
-      width: 100%;
+      width: 90%;
     }
     .hero-section-container{
         margin-top: 40px;
